@@ -1,0 +1,402 @@
+@media screen and (max-width: 1280px) {
+    .navbar {
+        justify-content: center;
+        margin: 1px auto;
+    }
+
+    .navbar-text {
+        font-size: 24px;
+    }
+
+    .container-principal {
+        width: 880px;
+        margin-left: 0;
+    }
+
+    .container-my-infos p {
+        width: 740px;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    
+    .container-profile-image {
+        position: absolute;
+        top: 180px;
+        right: 86px;
+    }
+
+    .container-my-hobbies {
+        margin-top: 30px;
+        width: 800px;
+    }
+
+    .container-my-hobbies h3 {
+        text-align: center;
+        font-size: 40px;
+        margin-left: 0;
+        margin-bottom: 30px;
+
+    }
+
+    .container-my-hobbies li {
+        font-size: 22px;
+    }
+
+    #main {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #motivation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-motivation p {
+        font-size: 24px;
+        width: 800px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-principal {
+        width: 800px;
+    }
+
+    .linha {
+        width: 88%;
+    }
+
+    .container-profile-image {
+        position: absolute;
+        top: 120px;
+        right: 0;
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .container-profile-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .animation {
+        width: 180px;
+        height: 180px;
+        top: -185px;
+    }
+}
+
+@media screen and (min-width: 912px) and (max-width: 992px) {
+    .container-principal {
+        width: 740px;
+        padding: 35px;
+    }
+
+    .container-apresentação h2 {
+        font-size: 26px;
+    }
+
+    .container-apresentação h1 {
+        font-size: 38px;
+    }
+
+    .container-apresentação p {
+        font-size: 22px;
+        margin-left: 290px;
+        margin-top: 0px;
+    }
+
+    .linha {
+        width: 88%;
+    }
+
+    .container-my-infos p {
+        width: 670px;
+        text-align: justify;
+    }
+
+    .container-profile-image {
+        top: 120px;
+        right: 0;
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .container-profile-image img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .animation {
+        width: 175px;
+        height: 175px;
+        top: -180px;
+    }
+
+    .container-my-hobbies {
+        margin-top: 30px;
+        width: 750px;
+    }
+
+    .container-my-hobbies h3 {
+        text-align: center;
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+
+    .container-my-hobbies li {
+        font-size: 28px;
+    }
+
+    .container-motivation p {
+        font-size: 30px;
+        width: 700px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 910px) {
+    .container-principal {
+        width: 650px;
+        padding: 35px;
+    }
+
+    .container-apresentação h2 {
+        font-size: 22px;
+    }
+
+    .container-apresentação h1 {
+        font-size: 32px;
+    }
+
+    .container-apresentação p {
+        font-size: 18px;
+        margin-left: 250px;
+        margin-top: 0px;
+    }
+
+    .linha {
+        width: 88%;
+    }
+
+    .container-my-infos p {
+        width: 580px;
+        text-align: justify;
+    }
+
+    .container-profile-image {
+        top: 140px;
+        right: 0px;
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .container-profile-image img {
+        width: 155px;
+        height: 155px;
+    }
+
+    .animation {
+        width: 155px;
+        height: 155px;
+        top: -160px;
+    }
+
+    .container-my-hobbies {
+        margin-top: 30px;
+        width: 600px;
+    }
+
+    .container-my-hobbies h3 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .container-motivation p {
+        font-size: 24px;
+        width: 600px;
+        text-align: justify;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: flex-start;
+        padding: 30px;
+    }
+    
+    .container-principal {
+        width: 480px;
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .container-apresentação h2 {
+        font-size: 22px;
+    }
+
+    .container-apresentação h1 {
+        font-size: 28px;
+    }
+
+    .container-apresentação p {
+        font-size: 17px;
+        position: relative;
+        left: 201px;
+    }
+
+    .linha {
+        width: 100%;
+    }
+
+    .container-my-infos p {
+        width: 445px;
+        font-size: 18px;
+    }
+
+    .container-apresentação p {
+        margin-left: 0px;
+    }
+
+    .container-profile-image {
+        top: 20px;
+        right: 170px;
+        transform: translateX(30%);
+        width: 20vw;
+        height: 20vh;
+    
+    }
+
+    .container-profile-image img {
+        width: 155px;
+        height: 155px;
+    }
+
+    .animation {
+        width: 155px;
+        height: 155px;
+        top: -160px;   
+    }
+
+    .container-my-hobbies {
+        width: 510px;
+    }
+
+    .container-my-hobbies h3 {
+        font-size: 30px;
+        margin-left: -8px;
+        margin-top: -10px;
+    }
+
+    .container-my-hobbies li {
+        font-size: 18px;
+    }
+
+    .container-motivation {
+        margin-top: -20px;
+    }
+
+    .container-motivation p {
+        font-size: 20px;
+        width: 480px;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 450px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+
+    .container-principal {
+        width: 330px;
+        padding: 20px;
+        padding-top: 50px;
+        margin-top: 30px;
+    }
+
+    .container-apresentação h2 {
+        font-size: 26px;
+    }
+
+    .container-apresentação h1 {
+        font-size: 34px;
+    }
+
+    .container-apresentação p {
+        font-size: 17px;
+        left: 0;
+    }
+
+    .linha {
+        width: 100%;
+    }
+
+    .container-my-infos p {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .container-apresentação p {
+        margin-left: 0px;
+    }
+
+    .container-profile-image {
+        top: 45px;
+        right: 50%;
+        transform: translateX(30%);
+        width: 20vw;
+        height: 20vh;
+    
+    }
+
+    .container-profile-image img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .animation {
+        width: 110px;
+        height: 110px;
+        top: -115px;   
+    }
+
+    .container-my-hobbies {
+        width: 320px;
+    }
+
+    .container-my-hobbies h3 {
+        font-size: 34px;
+        margin-top: -10px;
+    }
+
+    .container-my-hobbies li {
+        font-size: 18px;
+    }
+
+    .container-motivation {
+        margin-top: -20px;
+    }
+
+    .container-motivation p {
+        font-size: 20px;
+        width: 320px;
+    }
+}
