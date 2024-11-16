@@ -17,3 +17,5 @@ function hiddenSidebar() {
 
 hamburger.addEventListener("click", visibleSidebar)
 backgroundSidebar.addEventListener("click", hiddenSidebar)
+
+document.querySelector(".sidebar-animation").classList.add("visible")
